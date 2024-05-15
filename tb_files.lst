@@ -1,0 +1,14 @@
+$GIT_HOME/dut/ymp_alu_matrix_top.svp
+$GIT_HOME/dut/ymp_alu_regs.svp
+$GIT_HOME/dut/ymp_alu_control_unit.svp
+
++incdir+$GIT_HOME/tb
++incdir+$GIT_HOME/tb/clk_vc
++incdir+$GIT_HOME/tb/rst_vc
++incdir+$GIT_HOME/tb/axis_vc
++incdir+$GIT_HOME/tb/axis_vc/axis_slave_vc
++incdir+$GIT_HOME/tb/axis_vc/axis_master_vc
++incdir+$GIT_HOME/tb/apb_master_vc
++incdir+$GIT_HOME/tb/irq_vc
+$GIT_HOME/tb/alu_matrix_pkg.sv
+$GIT_HOME/tb/alu_matrix_tb_top.sv
